@@ -1,0 +1,12 @@
+# Raw and derived data (kept off GitHub)
+data/*.csv
+data/clean/
+
+# Raw product image set (lives in the GCS bucket, too big for a repo)
+images/ecommerce products/
+
+# Credentials and local cruft
+kaggle.json
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
